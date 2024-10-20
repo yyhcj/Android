@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="410dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TableRow
+
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="start"
+                android:text="Open..."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="end"
+                android:text="ctrl+O"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="start"
+                android:text="save..."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="end"
+                android:text="ctrl+s"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="start"
+                android:text="save as..."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="end"
+                android:text="ctrl+shift+s"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"/>
+    </TableRow>
+    <TableRow
+
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="start"
+                android:text="X import..."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="end"
+                android:text=""
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="start"
+                android:text="X export..."
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="end"
+                android:text="ctrl+E"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"/>
+    </TableRow>
+    <TableRow
+
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="start"
+                android:text="quit"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="end"
+                android:text=""
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </TableRow>
+
+
+</TableLayout>
+
